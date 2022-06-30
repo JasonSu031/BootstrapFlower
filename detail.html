@@ -24,31 +24,42 @@
     </div>
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light my-3">
-        <div class="container-fluid d-md-none">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenuBar"
-                aria-controls="navbarSupportedContent" aria-expanded="false">
-                Menu
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse justify-content-center" id="hiddenMenuBar">
-            <ul class="navbar-nav lead">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link px-3">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="search.html" class="nav-link px-3">Search</a>
-                </li>
-                <li class="nav-item">
-                    <a href="design.html" class="nav-link px-3">Design</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link px-3">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light my-3">
+            <div class="container-fluid d-md-none">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenuBar"
+                    aria-controls="navbarSupportedContent" aria-expanded="false">
+                    Menu
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center" id="hiddenMenuBar">
+                <ul class="navbar-nav lead">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link px-3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link px-3">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="design.html" class="nav-link px-3">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link px-3">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <i class="bi bi-person-fill" type = "button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="register.html">Register</a></li>
+                    <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
 
     <!--View flower details-->
     <div class="container">
@@ -79,9 +90,18 @@
                     <p class = "fw-bold">Description:</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, expedita. In nesciunt, facilis amet sed, eos exercitationem consectetur porro minus alias doloremque nulla, expedita fugiat quas ipsum quasi dolorum voluptatem!</p>
                 </div>
-                
+                <div class="dropdown">
+                    <i class="bi bi-person-fill" type = "button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="login.css">Login</a></li>
+                        <li><a class="dropdown-item" href="register.css">Register</a></li>
+                        <li><a class="dropdown-item" href="cart.css">Cart</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
