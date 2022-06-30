@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!--header-->
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <img class="mx-auto d-block" src="/assets/FlowerLogo.jpg" alt="" width="60%">
+            </div>
+        </div>
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light my-3">
+        <div class="container-fluid d-md-none">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenuBar"
+                aria-controls="navbarSupportedContent" aria-expanded="false">
+                Menu
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-center" id="hiddenMenuBar">
+            <ul class="navbar-nav lead">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link px-3">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="search.html" class="nav-link px-3">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="design.html" class="nav-link px-3 active" aria-current="true">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link px-3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Upload Image-->
+    <div>
+        <h5 class = "text-center p-3">Simply Flowers allows you to design your own flower now!</h5>
+    </div>
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8 border bg-light px-4 py-3">
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Upload an image of your flower design:</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div>
+                    
+                    <label>Follow the design:</label></br>
+                    <select name="designType">
+                        <option value="">Exactly</option>
+                        <option value="">Similar Design</option>
+                        <option value="">Similar Color</option>
+                        <option value="">Take inspiration</option>
+                    </select>
+                </div>
+                <div>
+                    </br>
+                    <label>What kind of feelings are you trying to portray?</label></br>
+                    <textarea></textarea>
+                </div>
+            <div>
+                </br>
+                <label>Elements that must be included in the flower:</label></br>
+                <textarea></textarea>
+            </div>
+            <div>
+                <button class = "btn-success rounded-3 mx-auto d-block my-3">Submit</button>
+            </div>
+            </div>
+            <div class="col-2">
+                
+            </div>
+        </div>
+    </div>
+    
+    <!--Form-->
+    <!-- Describe elements-->
+    <!-- Say for who-->
+
+</body>
+</html>
